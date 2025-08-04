@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #000000, #1a1a1a);
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  padding: 20px;
+  max-width: 420px;
+  width: 100%;
+}
+
+.logo {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1em;
+  margin-bottom: 30px;
+  color: #ccc;
+}
+
+.download-btn {
+  display: inline-block;
+  background: #00ff5f;
+  color: black;
+  padding: 12px 24px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.download-btn:hover {
+  background: #00cc4d;
+}
+
+.socials {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.socials img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease;
+}
+
+.socials img:hover {
+  transform: scale(1.2);
+}
+
+.disclaimer {
+  margin-top: 40px;
+  background-color: #222;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 0.9em;
+  color: #aaa;
+}
+
+.disclaimer h3 {
+  color: #ff4d4d;
+  margin-bottom: 10px;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 0.8em;
+  color: #888;
+}
